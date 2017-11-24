@@ -1,9 +1,5 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Oct 24 21:11:01 2017
+#!/usr/bin/env python2.7
 
-@author: ltspinardi
-"""
 from Timer import FollowTimer
 import time
 import ttk
