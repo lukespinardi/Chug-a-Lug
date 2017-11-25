@@ -29,9 +29,11 @@ if [ "" == "`find get-pip.py`"]; then
 	`wget --no-check-certificate https://bootstrap.pypa.io/get-pip.py`;
 	fi
 
-sudo python -m  pip -U  install selenium;
-wget https://github.com/mozilla/geckodriver/releases/download/v0.18.0/geckodriver-v0.18.0-linux64.tar.gz;
 echo "--------------------------------------------------------"
 echo "Almost there!"
+echo "Issue the following commands to complete the install"
+echo "While still in the /Python2.7.*/Tools/scripts directory, run $ python get-pip.py"
+echo "sudo python -m  pip -U  install selenium"i
+echo "wget https://github.com/mozilla/geckodriver/releases/download/v0.18.0/geckodriver-v0.18.0-linux64.tar.gz"
 echo "Unzip geckodriver* using gzip -d or tar -xzvf";
 echo "Then chmod +x geckodriver";
