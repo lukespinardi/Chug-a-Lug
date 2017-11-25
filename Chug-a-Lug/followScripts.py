@@ -213,6 +213,3 @@ def unfollow_if_not_following(profileList):
             unfollowButton.click()  # not selecting the right object
             unfollowedTotal = unfollowedTotal + 1
 
-def test():
-    ChugaLug.set_print_value("hello")
-
