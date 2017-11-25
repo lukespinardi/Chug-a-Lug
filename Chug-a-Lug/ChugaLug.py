@@ -254,11 +254,6 @@ def main():
     return window
 
 
-if __name__ == "__main__":
-    window = main()
-    window.mainloop()
-
-
 def run():
     """
     Creates the GUI when Chug-a-Lug is called from an executable directory
@@ -266,3 +261,8 @@ def run():
 
     window = main()
     window.mainloop()
+
+if __name__ == "__main__":
+    run()
+
+
